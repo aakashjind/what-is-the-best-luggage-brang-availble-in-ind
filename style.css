@@ -1,0 +1,861 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo img{
+  width: 20%;
+  color: aliceblue;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 50px;
+ margin-right: 30px;
+ margin-top: 10px;
+ position: relative;
+ 
+ 
+
+}
+.navbar{
+  display: flex;
+  position: sticky;
+
+}
+
+.nav-list { 
+    width: 50%;
+    display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 50px;
+  position: fixed;
+  
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 40px;
+    margin-bottom: 1rem;
+    
+}
+
+.nav-list li a{
+   text-decoration: none;
+   color:black;
+   margin-bottom: 20px;
+   padding: 7px;
+   border-radius: 10px;
+   z-index: 5;
+}
+.nav-list li a:hover{ 
+  text-decoration: none;
+ color:black;
+ background-color: rgb(138, 212, 225);
+}
+
+.background{ 
+  background: url("/img/bag.jpg ") ;
+  background-size: 100%;
+  background-blend-mode: darken;
+  padding-bottom: 500px;
+  padding-left: -20px;
+  background-repeat: no-repeat;
+  animation: change 10s infinite ease-in-out;
+  position: relative;
+  }
+ 
+  @keyframes change{
+    0%{
+      background-image: url("/img/ak.jpg") 
+    
+    }
+    20%{
+      background-image: url("/img/ml.jpg")  
+    }
+   30%{
+       background-image: url("/img/gg.jpg")
+    }
+    40%{
+      background-image: url("/img/jh.jpg")  
+    }
+    60%{
+      background-image: url("/img/bag.jpg")  
+    }
+    70%{
+      background-image: url("/img/oo.jpg") 
+    }
+    80%{
+      background-image: url("/img/tk.jpg")  
+    }
+    100%{
+      background-image: url("/img/ur.jpg") 
+    }
+  }
+.had{
+  display: flex;
+  align-items: center; 
+  margin-top: 10%;
+  flex-direction: column;
+  padding: 100px;
+  margin-left: 100px;
+  color: black;
+  flex-direction: column;
+  
+
+}
+
+.btn{
+margin-left: 600px;
+margin-bottom: 50px;
+border-radius: 18px;
+background-color: aqua;
+width: 94px;
+height: 38px;
+cursor: pointer;
+}
+.btn:hover{
+  background-color: green;
+}
+
+
+
+.bag{
+  height: 70vh;
+  width: 90%;
+  margin-left: 50px; 
+  filter: brightness(1400px);
+}
+.p0{
+padding-bottom: 50px;
+padding-left: 34px;
+margin-right: 50px;
+margin-right: 12px;
+width: 700px;
+
+}
+.h1{
+padding-bottom: 25px;
+margin-left: 70px;
+padding-left: 38%;
+padding-top: 2%;
+position: relative; 
+
+
+
+}
+.bag0{
+  height: 70vh;
+  width: 35%;
+  margin-left: 450px; 
+  margin-top: 30px;
+  
+}
+
+ .tag{
+  height: 70vh;
+  width: 32%;
+  margin-left: 497px;
+  margin-top: 2%;
+  filter: brightness(1400px);
+  
+ }
+ .p1{
+   margin-left: 70px;
+   margin-top: 20%;
+   padding-left: 10%;
+   padding-right: 10%;
+ }
+ 
+ 
+ .gog{
+  height: 70vh;
+  width: 32%;
+  margin-left: 500px; 
+  margin-top: 30px;
+  filter: brightness(1400px);
+ }
+ .p2{
+   margin-left: 70px;
+   margin-top: 20px;
+   padding-left: 30px;
+   padding-right: 30px;
+ }
+
+ 
+ .dog{
+  height: 70vh;
+  width: 32%;
+  margin-left: 500px; 
+  margin-top: 10px;
+  
+ }
+ .p3{
+   margin-left: 70px;
+   margin-top: 10px;
+   padding-right: 34PX;
+   padding-left: 32px;
+ }
+
+.buy-now {
+background-color: rgb(208, 241, 229);
+z-index: -1;
+padding-top: 50px;
+
+} 
+
+.hab{
+ border: solid red;
+ align-items: center;
+ justify-content: center;
+ overflow: hidden;
+ box-sizing: border-box;
+ padding: 35px;
+ width: 27%;
+ margin-top: 100px;
+ margin-left: 3%;
+ float: left;
+ padding-bottom: 1%;
+ border-radius: 50px;
+ cursor: pointer;
+ filter: brightness(1400px);
+}
+
+
+.lipi{
+  height: 409px;
+  width: 300px;
+}
+
+.hab2{
+  border: solid red;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 35px;
+  width: 27%;
+  height: 80%;
+  margin-top: 100px;
+  margin-left: 35%;
+  padding-bottom: 1%;
+  position: absolute;
+  border-radius: 50px;
+  cursor: pointer;
+}
+ .lipi2{
+   height: 409px;
+   width: 250px;
+ }
+
+
+ .hab3{
+  border: solid red;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 35px;
+  width: 27%;
+  margin-top: 100px;
+  margin-right: 6%;
+  padding-bottom: 1%;
+  float: right;
+  position: relative;
+  border-radius: 50px;
+  cursor: pointer;
+ }
+
+ 
+ .lipi3{
+   height: 409px;
+   width: 390px;
+   margin-right: 30%;
+ }
+
+.hori{
+ margin-left: 34%;
+ margin-top: 3%;
+ }
+
+ .hori{
+  margin-bottom: auto;
+  background-color: aquamarine;
+  margin-top: 50%;
+ padding: 7%;
+ padding-bottom: 3%;
+  margin-right: 100%;
+  margin-left: 0px;
+  width: 85%
+
+ }
+
+ .call{
+ padding: 10px 10px 10px 10px;
+ width: 50px;
+ margin-top: 2px;
+ display: flex;
+ }
+ .inta{
+  width: 54px;
+  margin-top: -72px;
+  display: flex;
+  float: right;
+  margin-right: 615px;
+  
+
+ }
+ .place{
+  padding: 16px;
+  width: 65px;
+  margin-top: -96px;
+  margin-left: 25%;
+  margin-bottom: 91px;
+    }
+  .nub{
+    margin-left: 115px;
+    padding-top: 46px;
+    margin-top: -22px;
+    margin-bottom: 0px;
+    padding-bottom: 75px;
+    position: absolute;
+  }
+  
+ .book{
+  width: 68px;
+  margin-top: -78px;
+    display: flex;
+    float: right;
+    margin-right: 323px;
+ }
+ .MAN{
+margin-left: 34%;
+padding-bottom: 2%;
+margin-top: 3%;
+ 
+ }
+
+ .cop{
+  padding: 23px;
+  margin-left: -107px;
+  margin-right: -107px;
+ text-align: center;
+ margin-top: 65px;
+ background-color: rgb(224, 147, 203);
+ }
+
+ 
+@media    only screen and (max-width: 360px){
+    
+  .container{  max-width: 86%;
+
+}
+.container img { 
+    max-width: 86%;
+}
+  
+ .logo {
+  max-width: 1315%;
+  margin-left: -37px;
+  padding-left: -17px;
+  margin-top: -5px;}
+
+.buy-now{background-color: rgb(208, 241, 229);
+  z-index: -1;
+  padding-top: 50px;
+  margin-top: -222%;
+}
+ 
+.nav-list li {
+  list-style: none;
+  padding: 5px;
+  margin-bottom: 1rem;
+  
+}
+
+.nav-list{
+width: 44%;
+}
+.had {
+  display: flex;
+  align-items: center;
+  margin-top: -78px;
+  flex-direction: column;
+  padding: 93px;
+    padding-top: 93px;
+    padding-right: 93px;
+    padding-left: 93px;
+  margin-left: -631px;
+  color: black;
+  flex-direction: column;
+  padding-right: 237px;
+  padding-left: 706px;
+  padding-top: 119px;
+  margin-right: 108px;
+width: 280px;
+}
+
+.btn{
+  margin-left: 112px;
+  margin-bottom: -79px;
+  border-radius: 18px;
+  background-color: aqua;
+  width: 67px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: -90px;
+  position: absolute;
+}
+.h1 {
+  padding-bottom: 25px;
+  margin-left: -429px;
+  padding-left: 55%;
+  padding-top: 186%;
+  position: relative;
+}
+.p0 {
+  padding-bottom: 50px;
+  padding-left: 9px;
+  margin-right: 108px;
+  margin-right: -33px;
+  width: 344px;
+  margin-left: -453px;
+}
+
+.bag {
+  height: 56%;
+  max-width: 241%;
+  margin-left: -426px;
+  padding-right: 196px;
+  position: absolute;
+}
+
+
+
+.p1 {
+  margin-left: 49px;
+
+  margin-top: 145%;
+
+  padding-left: 0%;
+
+  padding-right: 10%;
+
+}
+
+  
+    
+  
+  .gog {
+    height: 58vh;
+  
+    width: 85%;
+  
+    margin-left: 33px;
+  
+    margin-top: 2%;
+  
+  }
+
+  .p3 {
+    margin-left: 49px;
+   margin-top: 2%;
+    padding-left: 0%;
+  position: absolute;
+    padding-right: 10%;
+  
+  }
+    
+    .tag {
+      height: 58vh;
+    
+      width: 85%;
+    
+      margin-left: 33px;
+    
+      margin-top: 2%;
+    }
+
+    .hab {
+      border: solid red;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      box-sizing: border-box;
+      padding: 30px;
+      width: 81%;
+      margin-top: 2px;
+      margin-left: 9%;
+      float: left;
+      padding-bottom: 1%;
+      border-radius: 50px;
+      cursor: pointer;
+       height: 592px;
+      }
+.hab2 {
+  border: solid red;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 35px;
+    padding-bottom: 35px;
+    width: 83%;
+    height: 55%;
+    margin-top: 603px;
+    margin-left: 7%;
+  padding-bottom: 1%;
+  position: absolute;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.hab3 {
+  border: solid red;
+  margin-top: 1202px;
+  margin-left: 32px;
+  width: 79%;
+  margin-top: 1222px;
+  height: 587px;
+position: absolute;
+}
+
+.hori {
+  margin-bottom: auto;
+
+  background-color: aquamarine;
+
+  margin-top: 528%;
+
+  padding: 7%;
+
+    padding-bottom: 7%;
+
+  padding-bottom: 3%;
+
+  margin-right: 100%;
+
+  margin-left: 0px;
+
+  width: 85%;
+
+}
+
+  .call {
+    margin-left: 8px;
+    position: relative;
+    margin-top: 4px;
+}
+.place {
+  width: 65px;
+margin-left: 65%;
+margin-top: -168px;
+    margin-top: 12px;
+    position: relative;
+    padding: 101px;
+    margin-left: 47%;
+}
+
+.book {
+  width: 68px;
+  margin-top: -463px;
+  display: flex;
+  float: right;
+  margin-right: -27px;
+  position: relative;
+  padding: 23px;
+}
+.inta {
+  width: 54px;
+
+  margin-top: 106px;
+
+  display: flex;
+
+  float: right;
+
+  margin-right: 187px;
+
+  position: absolute;
+}
+.nub {
+  margin-left: 68px;
+}
+
+}
+/*
+
+  .call {
+    margin-left: 8px;
+    position: absolute;
+    margin-top: 4px;
+}
+.place {
+  width: 65px;
+margin-left: 65%;
+    margin-bottom: 91px;
+    margin-top: 12px;
+    position: relative;
+    padding: 101px;
+    margin-left: 47%;
+}
+.nub {
+  margin-left: 68px;
+}
+.inta {
+  width: 54px;
+  display: flex;
+  margin-top: 2px;
+  position: absolute;
+}
+
+.book {
+  width: 68px;
+  margin-top: -138px;
+  display: flex;
+  float: right;
+  margin-right: 11px;
+  position: relative;
+  padding: 23px;
+}*/
+
+@media    only screen and (max-width: 324px){
+    
+  .hori {
+    position: relative;
+    margin-top: 571%;
+
+  }
+ .nav-list {
+  margin-left: 36px;
+  }
+ .bag0 p {
+  width: 307px;
+  }
+  .bag {
+    height: 444px;
+    margin-left: -426px;
+}
+.p1{
+  
+    margin-left: 49px;
+    margin-top: 84%;
+}
+.hab2 {
+  height: 55%;
+  margin-top: 604px;
+}
+.hab3{
+height: 617px;
+}
+}
+
+/*
+.book{
+  margin-right: 90px;
+}
+
+}
+
+@media  (min-width:1500px)
+  {
+   
+   .had {
+      margin-top: 5%;
+    }
+    .btn {
+      margin-left: 365px;
+      margin-top: -63px;
+      position: absolute;
+  }
+  .buy-now {
+    padding-top: 48px;
+    margin-top: -285px;
+
+  }
+  .bag0 {
+    height: 70vh;
+    width: 37%;
+    margin-left: 49px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.h1 {
+  padding-bottom: 19px;
+
+  margin-left: 203px;
+
+  padding-left: 42%;
+
+  padding-top: 10%;
+
+  position: relative;
+  }
+  
+  .bag {
+    height: 53vh;
+  
+    width: 185%;
+}
+
+.p1 {
+  margin-left: 49px;
+
+  margin-top: 121%;
+
+  padding-left: 0%;
+
+  padding-right: 10%;
+  }
+
+.tag {
+  height: 58vh;
+  width: 72%;
+  margin-left: 86px;
+  margin-top: 2%;
+}
+
+.gog {
+  height: 45vh;
+
+  width: 76%;
+
+  margin-left: 76px;
+
+  margin-top: 2%;
+
+}
+
+.dog {
+  height: 51vh;
+
+  width: 76%;
+
+  margin-left: 78px;
+
+  margin-top: 176px;
+
+}
+.lipi {
+  height: 383px;
+
+  width: 323px;
+
+  margin-left: 39px;
+  }
+  .hab {
+  
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+.hab2{
+  width: 50%;
+  margin-top: 619px;
+    margin-left: 25%;
+}
+
+  .lipi {
+    margin-left: 4px;
+}
+.hab3{
+
+      width: 54%;
+  
+      margin-top: 1255px;
+  
+      margin-left: 24%;
+     height: 626px;;
+      position: absolute;
+
+}
+.lipi {
+  margin-left: 4px;
+}
+.MAN {
+  margin-left: 24%;
+  }
+/*
+  @media screen and (min-width:810px) {
+  
+    .hori {
+
+    
+      padding-bottom: 7%;
+      padding-bottom: 3%;
+      margin-right: 100%;
+      margin-left: 0px;
+      width: 85%;
+      position: absolute;
+    }
+    .place {
+      margin-top: -101px;
+  }
+
+  .book {
+    width: 68px;
+  
+    margin-top: -72px;
+  
+    display: flex;
+  
+    float: right;
+  
+    margin-right: 139px;
+  
+    position: relative;
+  }
+
+ /* @media (max-width:800px) {
+  
+    .hori {
+
+    
+      padding-bottom: 7%;
+      padding-bottom: 3%;
+      margin-right: 100%;
+      margin-left: 0px;
+      width: 85%;
+      position: absolute;
+    }
+    .place {
+      margin-top: -101px;
+  }
+
+  .book {
+    width: 68px;
+  
+    margin-top: -72px;
+  
+    display: flex;
+  
+    float: right;
+  
+    margin-right: 139px;
+  
+    position: relative;
+  }
+
+  @media screen and (min-width: 1080px) {
+    .buy-now {
+      padding-top: 48px;
+  
+      margin-top: -91px;
+  }
+
+ .bag0{
+  margin-top: 235px;
+ } 
+ .hab3 {
+  width: 49%;
+  margin-top: 1255px;
+  margin-left: 25%;
+  height: 677px;
+    }
+    .book{
+      margin-right: 219px;
+    }
+  }
+  
